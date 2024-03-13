@@ -11,10 +11,10 @@ yes{
 }
 
 body{
-    background: rgb(105,105,105);
-    background: linear-gradient(180deg, rgba(105,105,105,1) 0%, rgba(58,58,58,1) 100%);
-    line-height: 3.5;
-    margin: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(46,45,53,1) 72%, rgba(58,58,58,1) 100%);
+  line-height: 3.5;
+  margin: 0;
 }
 
 .container {
@@ -24,7 +24,7 @@ body{
     height: 100vh; /* Optional: Adjust according to your layout needs */
   }
 
-  .title {
+  .Maincontent {
     color: aliceblue;
     font-family: Arial;
     max-width: 300px;
@@ -33,6 +33,7 @@ body{
     line-height: 1.5;
     /* Ensure the text is centered within its container */
     text-align: center; /* Center the title text if there's extra space */
+    padding-bottom: 2rem;
   }
 .sources_title {
     text-align: center;
@@ -42,7 +43,20 @@ body{
     margin: auto;
     overflow-wrap: break-word;
     line-height: 1.5;
-    padding-bottom: 20rem;
+    padding-bottom:15rem;
+    margin-bottom: 4.5rem;   
+}
+
+.intro_style {
+  text-align: center;
+  color: aliceblue;
+  font-family: Arial;
+  max-width: 300px;
+  margin: auto;
+  overflow-wrap: break-word;
+  line-height: 1.5;
+  padding-bottom:14rem;
+  margin-bottom: 14rem;
 }
 
 a {
