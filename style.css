@@ -1,0 +1,66 @@
+h1{
+    padding-top: 4rem;
+    text-align: center;
+    font-family: arial black;
+    color: cornflowerblue;
+}
+yes{
+    font-family: Arial;
+    color:rgb(224, 221, 221);
+    margin-left:  590px;
+}
+
+body{
+    background: rgb(105,105,105);
+    background: linear-gradient(180deg, rgba(105,105,105,1) 0%, rgba(58,58,58,1) 100%);
+    line-height: 3.5;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Aligns children vertically in the center */
+    justify-content: space-between; /* Positions one child on the left and the other on the right */
+    height: 100vh; /* Optional: Adjust according to your layout needs */
+  }
+
+  .title {
+    color: aliceblue;
+    font-family: Arial;
+    max-width: 300px;
+    margin: auto;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    /* Ensure the text is centered within its container */
+    text-align: center; /* Center the title text if there's extra space */
+  }
+.sources_title {
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial;
+    max-width: 300px;
+    margin: auto;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    padding-bottom: 20rem;
+}
+
+a {
+    padding: 1rem 1.5rem;
+    text-align: center;
+    margin-top: 4rem;
+    background-color: rgb(54, 53, 53);
+    color:cornflowerblue;
+    text-decoration: none;
+    font-family: Arial;
+    margin-left: 0.5em;
+  }
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #a7adb4;
+    text-decoration: none;
+  }
